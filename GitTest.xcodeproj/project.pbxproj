@@ -21,6 +21,7 @@
 		53965FC61821C77D00D403A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53965FA81821C77C00D403A3 /* UIKit.framework */; };
 		53965FCE1821C77D00D403A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53965FCC1821C77D00D403A3 /* InfoPlist.strings */; };
 		53965FD01821C77D00D403A3 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53965FCF1821C77D00D403A3 /* GitTestTests.m */; };
+		5396601C1826B36400D403A3 /* DCATest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5396601B1826B36400D403A3 /* DCATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		53965FCB1821C77D00D403A3 /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		53965FCD1821C77D00D403A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		53965FCF1821C77D00D403A3 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		5396601A1826B36400D403A3 /* DCATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCATest.h; sourceTree = "<group>"; };
+		5396601B1826B36400D403A3 /* DCATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				53965FB61821C77C00D403A3 /* Main.storyboard */,
 				53965FB91821C77C00D403A3 /* DCAViewController.h */,
 				53965FBA1821C77C00D403A3 /* DCAViewController.m */,
+				5396601A1826B36400D403A3 /* DCATest.h */,
+				5396601B1826B36400D403A3 /* DCATest.m */,
 				53965FBC1821C77C00D403A3 /* Images.xcassets */,
 				53965FAB1821C77C00D403A3 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5396601C1826B36400D403A3 /* DCATest.m in Sources */,
 				53965FB11821C77C00D403A3 /* main.m in Sources */,
 				53965FBB1821C77C00D403A3 /* DCAViewController.m in Sources */,
 				53965FB51821C77C00D403A3 /* DCAAppDelegate.m in Sources */,
@@ -461,6 +467,7 @@
 				53965FD51821C77D00D403A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		53965FD61821C77D00D403A3 /* Build configuration list for PBXNativeTarget "GitTestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				53965FD81821C77D00D403A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
